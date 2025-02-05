@@ -1,27 +1,3 @@
-Thanks for sharing `popup.html`! Here is how the UI is structured:
-
-### UI Components:
-
-1. **Pattern Input**: A text input `#pattenInput` where users can input their custom pattern of page numbers.
-
-2. **Radio Buttons**: Two radio buttons `Query` and `Path` allow a user to select how they'd like to obtain or modify their page number:
-- `Query`: Utilizes query parameters in the URL to determine the page number.
-   - `Path`: Makes use of the path segments in the URL for the page number.
-
-3. **Submit Button**: It will send the selected pattern type and user input to the background script for storage on clicking.
-
-4. **Page Navigation**:
-   - **Prev Button**: It decreases the current page number.
-- **Next Button**: Increment the current page number.
-   - **Current Page**: A span element (`#currentPage`) which displays the current page number, which dynamically changes as the response from the background script comes through.
-
-5. **Styling**: Basic styles have been applied for buttons and layout so that they have appropriate spacing around them and are easy to click on.
-
----
-
-Now that I have all the context, I will create a `README.md` for you. Here is a draft:
-
----
 
 # Page Number Controller Extension
 
@@ -60,6 +36,3 @@ In the input field of the pattern, specify the query or path and submit.
 - Supports both `query` (e.g., `?page=2`) and `path` (e.g., `/page/2/`) URL patterns for page numbers.
 - You can switch between these two methods and customize the key used for the page number.
 
----
-
-Let me know if you want any changes!
